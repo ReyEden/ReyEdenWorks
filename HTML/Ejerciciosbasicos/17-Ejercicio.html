@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario HTML</title>
+</head>
+
+<body>
+  <h1>Formulario de registro</h1>
+  <form method="post" action="">
+    <fieldset>
+      <legend style="text-align:center" ><strong>Datos personales</strong></legend>
+      <label for="name"></label><br>
+      <p>Nombre:*<input type="text" name="username" placeholder="Nombre" maxlength="50" required></p>
+      <p>Apellido:* <input type="text" name="username" placeholder="Apellido" maxlength="50" required></p>
+      <p>Edad:* <input type="number" name="Edad" placeholder="Edad" min="0" max="130" required></p>
+
+      <p>Sexo:*
+        <input type="radio" name="Sexo" value="H" id="Hombre" required>
+        <label for="Hombre">Hombre</label></input>
+        <input type="radio" name="Sexo" value="M" id="Mujer" required>
+        <label for="Mujer">Mujer</label></input></p>
+        <p>Email:* <input type="email" name="Email" placeholder="Email" required>
+        </p>
+
+        <p>Poblacion:
+          <select id="group" name="">
+            <option value="1">Madrid</option>
+            <option value="2">Paris</option>
+            <option value="3">Lisboa</option>
+            <option Value="4">Roma</option>
+          </optgroup>
+        </select> <br><br>
+        <textarea style="resize:none" name="textarea" rows="5" cols="60"
+        maxlength="80" minlength="1">Población</textarea>
+      </p>
+
+      <p>
+        <input type="checkbox" name="Oferta" value="Y" id="Oferta" checked>
+        <label for="Oferta">Deseo recibir información sobre novedades y
+          ofertas.</label>
+        </p>
+        <p><input type="checkbox" name="Condiciones" value="Y2" id="Condiciones" required>
+          <label for="Condiciones">Declaro haber leído y aceptar las condiciones
+            generales del programa y la normativa sobre protección de datos.</label>
+          </p>
+
+          <input type="submit" name="Submit">
+        </fieldset>
+      </form>
+
+    </body>
+
+    </html>
