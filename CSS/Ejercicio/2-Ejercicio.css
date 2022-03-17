@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+  margin: 25px
+}
+
+header {
+  text-align: center;
+  font-family: serif;
+}
+
+h2 {
+  border-bottom: solid skyblue 2px;
+}
+
+span {
+  color: skyblue;
+  text-decoration: underline skyblue;
+}
+
+#SP1 {
+color: red;
+text-decoration: underline #76041E;
+}
+
+#C1 {
+  border: solid 0.1px
+}
+
+section.T2 {
+  background-color: #5f63682b;
+}
+
+section.P3 {
+  background-color: #3c40438c;
+}
