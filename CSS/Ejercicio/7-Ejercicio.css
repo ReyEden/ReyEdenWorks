@@ -1,0 +1,25 @@
+/**Modifica el formulario del Ejercicio 4 y añade los estilos
+necesarios para que:
+○ Los checkbox marcados por el usuario (checked) tiene que
+cambiar de color.
+○ Al poner el foco en un elemento, este deberá cambiar el
+color de fondo.
+○ Los elementos deshabilitados tendrán fondo de color negro
+(#000).
+○ Añade un estilo al pasar el ratón sobre cada elemento.**/
+
+input[type="checkbox"]:checked {
+  accent-color: red;
+}
+
+input:hover {
+  background-color: green;
+}
+
+textarea:hover {
+  background-color: green;
+}
+
+input:disabled {
+  background-color: #000;
+}

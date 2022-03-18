@@ -1,0 +1,52 @@
+input[type="text"]{
+  font-family: serif;
+  background-color: #7ddb0069;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+label[for="email"]{
+  font-family: Arial;
+  background-color: #7ddb0069;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+input[type="number"]{
+  font-family: cursive;
+  background-color: #7ddb0069
+  margin: 5px;
+  border-radius: 2px;
+}
+
+input[type="checkbox"]{
+  color: #db000069
+  shape-inside: circle(10);
+}
+textarea{
+  background-color: #db000069
+/**  background-image: url(https://i.pinimg.com/originals/1c/94/84/1c948486052af80b2370a73cb7f02c23.jpg);**/
+}
+
+a:hover {
+  cursor:not-allowed;
+  color: orange;
+  font-size: 55px;
+}
+
+input:disabled {
+  background-image: url(https://i.pinimg.com/originals/1c/94/84/1c948486052af80b2370a73cb7f02c23.jpg);
+}
+
+input:required {
+  border: dashed 2px red;
+}
+
+/**
+div {
+  border: solid 5px green;
+}**/
+
+:checked {
+  margin-left: 25px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 4</title>
+  <link rel="stylesheet" href="7-Ejercicio.css">
+</head>
+<body>
+  <header>
+    <h1>Formulario</h1>
+  </header>
+  <main>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Formulario</legend>
+
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" placeholder="Nombre" disabled>
+
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido" placeholder="Apellido" required>
+
+        <label for="Email">Email</label>
+        <input type="email" name="Email" placeholder="Email" disabled><br/>
+
+        <label for="Numero social">Numero favorito</label>
+        <input type="number" name="Numero" placeholder="Numero favorito" required><br>
+
+        <span>Seleccione su sexo:</span><br>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" name="Sexo" value="M">
+
+        <label for="Femenino">Femenino</label>
+        <input type="radio" name="Sexo" value="F" checked><br>
+
+        <span>Metodo de transporte:</span><br>
+
+        <label for="Propio">Propio</label>
+        <input type="checkbox" name="Propio" value="PP" checked>
+
+
+        <label for="Publico">Publico</label>
+        <input type="checkbox" name="Publico" value="P"> <br/><br/><br/>
+
+        <textarea name="Descripcion" rows="4" cols="20"  placeholder="Nombre">Descripcion propia</textarea>
+
+      </Fieldset>
+    </form>
+  </main>
+</body>
+</html>

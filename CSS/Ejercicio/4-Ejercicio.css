@@ -1,0 +1,31 @@
+input[type="text"]{
+  font-family: serif;
+  background-color: #7ddb0069;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+label[for="email"]{
+  font-family: Arial;
+  background-color: #7ddb0069;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+input[type="number"]{
+  font-family: cursive;
+  background-color: #7ddb0069
+  margin: 5px;
+  border-radius: 2px;
+}
+
+input[type="checkbox"]{
+  color: #db000069
+  shape-inside: circle(10);
+}
+textarea{
+  background-color: #db000069
+}
+
+/**Aplica estilos (color de fuente, color de fondo, etc) en función del
+atributo “type” o del tipo de elemento.**/
