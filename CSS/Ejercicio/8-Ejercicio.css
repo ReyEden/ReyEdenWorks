@@ -1,0 +1,86 @@
+/**Crea varios 8 divs cuadrados de 500px cada uno, borde negro de
+5px y margen interior de 20px. A continuación, escoge una
+imagen y utilízala como fondo del div. El fondo de cada uno de
+los divs tiene que tener un aspecto distinto (utiliza todas las
+propiedades aprendidas)*/
+
+
+#D1{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(https://bangbranding.com/blog/wp-content/uploads/2016/11/700x511_SliderInterior.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D2{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEXMAAA/z1L+AAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D3{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARQAAAC3CAMAAADkUVG/AAAAA1BMVEVmMwAfS+94AAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABuBsYDAAF1TSTaAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D4{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(https://biblioteca.acropolis.org/wp-content/uploads/2014/12/anaranjado-1200x839.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D5{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(http://innatia.info/images/galeria/azul-0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D6{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEWGAI8/xcRZAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D7{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(https://www.colorpsychology.org/es/wp-content/uploads/2019/08/chartreuse-color.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#D8{
+  height: 500px;
+  height: 500px;
+  border: solid 5px black;
+  pading: 20px;
+  background-image:url(https://www.uifrommars.com/wp-content/uploads/2018/08/crear-paleta-colores-diseno-ui.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
