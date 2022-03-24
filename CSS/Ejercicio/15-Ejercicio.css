@@ -1,0 +1,28 @@
+
+ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2px;
+  padding: 0px;
+  list-style: none;
+  width: 1400px;
+  height: 150px;
+
+
+}
+li{
+  background: rgba(123,198,199,0.8);
+  flex-grow: 1;
+  font-family: sans-serif;
+  color: black;
+  padding: 8px;
+  display:inline-block;
+
+  font-size: 1.2em;
+}
+
+
+  /**border: 1px solid white;
+margin-right: 1px;
+  padding: 0;**/

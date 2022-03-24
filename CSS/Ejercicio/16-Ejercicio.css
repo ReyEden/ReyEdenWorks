@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(123,198,199,0.8);
+  list-style: none;
+  width: 100px;
+  height: 1000px;
+  margin-top: inherit;
+  margin-left: 1px;
+  padding: 17px 24px;
+  gap: 1px;
+
+}
+
+li {
+  font-family: sans-serif;
+  align-items: center;
+  height: 1.8em;
+  margin: 0px;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+
+
+
+}
+
+div {
+  display: inline-block;
+  align-items: center;
+  background-color: rgba(193,219,210,1.00);
+  border-left: 3px solid white;
+  margin-top: inherit;
+  padding: 17px 24px;
+  flex-grow: 1;
+
+}
