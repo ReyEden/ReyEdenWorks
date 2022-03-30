@@ -1,0 +1,57 @@
+body {
+  display: grid;
+  grid-template-areas:
+  "Header Header Header"
+  "Nav Main Ad"
+  "Footer Footer Footer" ;
+
+  grid-template-rows: 80px 1fr 70px;
+  grid-template-columns: 20% 2fr 20%;
+  background-color: white;
+  grid-gap: 5px;
+  height: 100vh;
+  border: 2px solid black;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0px;
+  padding-top: 5px;
+}
+
+body * {
+  background-color: lightgreen;
+  padding: 1.3px;
+}
+
+#Header {
+  grid-area: Header;
+}
+
+#Nav {
+  grid-area: Nav;
+}
+
+#Main {
+  grid-area: Main;
+}
+
+#Ad {
+  grid-area: Ad;
+}
+
+#Footer {
+  grid-area: Footer;
+}
+
+
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body {
+    grid-template-areas:
+      "header"
+      "nav"
+      "main"
+      "ads"
+      "footer";
+    grid-template-rows: 80px 70px 1fr 70px 70px;
+    grid-template-columns: 1fr;
+ }

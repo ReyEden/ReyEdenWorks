@@ -1,0 +1,77 @@
+body {
+  display: grid;
+  grid-template-areas:
+  "Header Header Header"
+  "Nav Main Ad"
+  "Footer Footer Footer" ;
+
+  grid-template-rows: 80px 1fr 70px;
+  grid-template-columns: 20% 2fr 20%;
+  background-color: white;
+  grid-gap: 5px;
+  height: 100vh;
+  border: 2px solid black;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0px;
+  padding-top: 5px;
+}
+
+body * {
+  padding-top: 1em;
+  background-color: lightgreen;
+}
+
+#Header {
+  grid-area: Header;
+}
+
+#Nav {
+  grid-area: Nav;
+}
+
+#Main {
+  grid-area: Main;
+}
+
+#Ad {
+  grid-area: Ad;
+}
+
+#Footer {
+  grid-area: Footer;
+}
+
+.SelectionInt {
+display: grid;
+grid-template-areas:
+"P0 P0"
+"P1 P2"
+"P3 P4";
+
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+padding-top: 10em;
+}
+
+
+#P0 {
+  grid-area: P0;
+}
+
+#P1 {
+  grid-area: P1;
+}
+
+#P2 {
+  grid-area: P2;
+}
+
+#P3 {
+  grid-area: P3;
+}
+
+#P3 {
+  grid-area: P3;
+}
