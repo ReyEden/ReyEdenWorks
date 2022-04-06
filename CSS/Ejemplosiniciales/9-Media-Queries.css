@@ -1,0 +1,20 @@
+/* Estilos para móviles */
+@media only screen and (max-width: 400px) {
+body {
+background-color: red;
+}
+}
+/* Estilos para tablet */
+@media only screen and (min-width: 401px) and
+(max-width: 960px) {
+body {
+background-color: lightgreen;
+}
+}
+
+/* Estilos para desktop */
+@media only screen and (min-width: 961px) {
+body {
+background-color: powderblue; /* Blue */
+}
+}

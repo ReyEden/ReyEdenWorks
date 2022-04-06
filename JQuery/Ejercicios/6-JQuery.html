@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo 6 JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("div").hover(function(){
+          $("div").animate({left: Math.random() * (500 - 10)+'50px',top:Math.random() * (500 - 10)+'20px'});
+        });
+      });
+    </script>
+  </head>
+  <body>
+     <div style="background:red;height:100px;width:100px;position:absolute;"></div>
+  </body>
+</html>

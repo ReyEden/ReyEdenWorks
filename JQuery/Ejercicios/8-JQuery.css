@@ -1,0 +1,19 @@
+/* #T1 {
+  background-color: lightgreen;
+}
+
+#T2 {
+  background-color: lightblue;
+} */
+
+table {
+  font-size: 3em;
+}
+
+.azulclaro {
+  background-color: lightblue;
+}
+
+.verdeclaro {
+  background-color: lightgreen;
+}

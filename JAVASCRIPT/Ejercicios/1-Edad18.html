@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Primer ejercicio de Js, permiso de conducir.</title>
+    <!-- Ejercicio 1
+Realiza un script que pida la edad y si es mayor de 18 años indica que ya puede
+conducir. -->
+  </head>
+  <body>
+  <p id="Mensaje"></p>
+<script>
+var edad = proptm("Introduce tu edad");
+if(Number(edad) == edad){
+  if(edad>=18 && edad<80){
+  document.getElementById("Mensaje").innerHTML = "Puedes conducir";
+}else{
+  document.getElementById("Mensaje").innerHTML = "No puedes conducir";
+}
+}else{
+alert("¡Introduce un número");
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <!-- Ejercicio 2
+  Realiza un script que pida una nota (número). Muestra la calificación según la nota: -->
+</head>
+<body>
+  <script>
+  do{
+    flag=false;
+    var nota  = prompt("Introduce tu nota");
+    if (Number(nota) == nota){
+      if(nota>=0 && nota<=10){
+        flag=true;
+        if(nota<3){
+          alert("Muy deficiente");
+        }else if (nota < 5) {
+          alert("Insuficiente");
+        }else if (nota <6) {
+          alert("Suficiente");
+        }else if (nota <7) {
+          alert("Bien");
+        }else if (nota <9) {
+          alert("Notable");
+        }else if (nota>=9) {
+          alert("Sobresaliente");
+
+        }else{
+          alert("Nota no valida, debe de ser un número entre 0 y 10");
+        }
+      }else if(nota !=undefined){
+        alert("¡Introduce un numero!");
+      }else{
+        alert("¡Introduce un numero y pulsa aceptar!");
+      }
+    }
+  }while(flag!=true)
+
+</script>
+</body>
+</html>

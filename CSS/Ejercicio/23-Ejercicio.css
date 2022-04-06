@@ -1,0 +1,64 @@
+P {
+  padding-left: 50px;
+  font-size: 2em;
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+
+p.A {
+  color: yellow;
+}
+
+p.B {
+  color: purple;
+}
+
+p.C {
+  color: red;
+}
+
+p.D {
+  color: green;
+}
+
+@media only screen and (min-width: 0px)
+and (max-width: 400px){
+  p.A {
+    visibility: visible;
+  }
+
+  p.B, p.C, p.D {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 300px)
+and (max-width: 599px){
+  p.B {
+    visibility: visible;
+  }
+
+  p.C, p.D {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  p.C {
+    visibility: visible;
+  }
+
+  p.B, p.A, {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  p.D {
+    visibility: visible;
+  }
+
+  p.B, p.A {
+    visibility: hidden;
+  }
+}
